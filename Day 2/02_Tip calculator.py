@@ -1,0 +1,6 @@
+bill = float(input("How much was the bill? $"))
+split = int(input("How many people are splitting the bill? "))
+tip = int(input("How much tip would you like to leave? 10, 15, or 20? "))
+total_bill = round(((bill / split) * (tip / 100)) + (bill / split), 2)
+total_bill = "{:.2f}".format(total_bill)
+print("Each person should pay: $" + total_bill)
