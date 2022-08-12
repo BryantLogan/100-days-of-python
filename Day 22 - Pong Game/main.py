@@ -1,5 +1,3 @@
-from ctypes import alignment
-from re import X
 from turtle import Screen, Turtle
 from paddle import Paddle
 from ball import Ball
