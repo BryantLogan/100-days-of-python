@@ -5,3 +5,4 @@
 
 with open("Day 24 - Files, Directories, and Paths\\new_file.txt", mode = "w") as file:
     file.write("New Text.")
+
