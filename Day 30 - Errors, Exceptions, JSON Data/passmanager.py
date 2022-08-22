@@ -103,7 +103,7 @@ website_entry.grid(row=1, column=1, sticky="EW")
 website_entry.focus()
 email_entry = Entry(width=35)
 email_entry.grid(row=2, column=1, columnspan=2, sticky="EW")
-email_entry.insert(0, "angela@gmail.com")
+email_entry.insert(0, "example@email.com")
 password_entry = Entry(width=21)
 password_entry.grid(row=3, column=1, sticky="EW")
 
