@@ -49,12 +49,13 @@ while True:
                 to_addrs=my_email,
                 msg=f"Subject:Look Up!\n\nThe ISS Space Station is above you!"
             )
-    else:
-        with smtplib.SMTP("smtp.gmail.com", 587) as connection:
-            connection.starttls()
-            connection.login(my_email, my_password)
-            connection.sendmail(
-                from_addr=my_email,
-                to_addrs=my_email,
-                msg=f"Subject:Don't look Up!\n\nThe ISS Space Station is  NOT above you!"
-            )
+# Added this else block to make sure emails could be sent
+    # else:
+    #     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
+    #         connection.starttls()
+    #         connection.login(my_email, my_password)
+    #         connection.sendmail(
+    #             from_addr=my_email,
+    #             to_addrs=my_email,
+    #             msg=f"Subject:Don't look Up!\n\nThe ISS Space Station is  NOT above you!"
+    #         )
