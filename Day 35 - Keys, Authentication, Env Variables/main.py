@@ -6,7 +6,7 @@ from twilio.http.http_client import TwilioHttpClient
 api_key = "API_KEY_HERE"
 MY_LAT = 41.765770 # Your latitude
 MY_LONG = -72.673363 # Your longitude
-account_sid = "AC82f11b4d12376af5d0ab7cc210164278"
+account_sid = "TWILIO_ACCOUNT_SID"
 auth_token = "AUTH_TOKEN_HERE"
 
 proxy_client = TwilioHttpClient(proxy={'http': os.environ['http_proxy'], 'https': os.environ['https_proxy']})
@@ -36,8 +36,8 @@ if will_rain:
     message = client.messages \
         .create(
         body="It's going to rain today. Bring an umbrella",
-        from_='+16064411948',
-        to='+5855034132'
+        from_='TWILIO_NUMBER',
+        to='YOUR_NUMBER'
     )
     print(message.status)
         
