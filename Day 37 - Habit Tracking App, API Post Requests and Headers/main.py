@@ -44,8 +44,3 @@ create_pixel_endpoint = f"{graph_endpoint}/graph1"
 # Creates a pixel using create_pixel_config params
 response = requests.post(url=create_pixel_endpoint, json=create_pixel_config, headers=headers)
 print(response.text)
-
-
-
-
-
