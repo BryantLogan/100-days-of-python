@@ -30,13 +30,9 @@ graph_config = {
     "type": "int",
     "color": "ajisai",
 }
-
 # Creates a graph using graph_config params
 # response = requests.post(url=graph_endpoint, json=graph_config, headers=headers)
 # print(response.text)
-
-
-
 
 create_pixel_config = {
     "date": today,
