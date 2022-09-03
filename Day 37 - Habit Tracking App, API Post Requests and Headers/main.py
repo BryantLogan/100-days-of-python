@@ -4,7 +4,7 @@ from datetime import date as dt, datetime
 USERNAME = "USERNAME"
 TOKEN = "YOURTOKEN"
 pixela_endpoint ="https://pixe.la/v1/users"
-today = str(dt.today()).replace("-", "")
+today = str(dt.today()).replace("-", "") #alternatively you can use strftime()
 
 user_params = {
     "token": TOKEN,
