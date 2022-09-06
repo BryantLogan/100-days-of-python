@@ -1,0 +1,10 @@
+
+__pycache__
+settings.json
+.vscode
+.venv/
+*.log
+.DS_STORE
+.jovianrc
+.ipynb_checkpoints
+venv/
