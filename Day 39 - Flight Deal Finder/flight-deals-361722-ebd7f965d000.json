@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "flight-deals-361722",
+  "private_key_id": "ebd7f965d0001b0ccbda4a5831c5128766b0e1b9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD5XGDMZAGUQAsF\nf6ZbztoHR+zr4eqpt0F25cJil+R1OM5tuL/p5VNjx7kBXUGoK7n2aeab3dpLapx2\n+1I0Y73o1gWjjM4Izb+1f2ubY1mOWTyA0BLMp9bdDsXCzFAr1JJdlQoge6V2EJ/G\ntFUVmcYjq4ZBKXfZSvN/YL97gPgq9Fv3B2bZC4m7XsRb06NvcbUbISneWFFJzQwN\nInFxVnMhqEPe+S7IJZBfWI4JIk8RUsfQvRlxdW388Ofm30/2kMAoDr/31vzTj8Nf\nkqY2u1cVMQIiS2Khn7a+lQAcnyc5oF8wX4XCcU9Ulu8LsS2WUvt/hdt3Ijy2kgmX\nVA95u2WbAgMBAAECggEAFlWt3eC/O3YZBp8OWX7HjItmryIHELh3Rp0Bsi8EqXMz\nGiTIG70MoQ1MhtDBhryT5XxKyX8vhD3CUe3kyQh+BBLXYnTEJ4m2OB13l+1oIhXg\nE3GPnYES/63JDM+cBrD9gyBMTeiFQ3Ptu7B/RnYFh0BfwApkz7Ok563UuM0ubTpU\nlqOt7UWntLm3XwubL0BcBNOeqxEiIPQuQ5oflB+pZdbP5CbIvXJQj4P2D+PHmmt3\nNU0+PVivRSHQ+2bktch1FVh/Y4/KNGdG0mXPiJcfEFMyVY/8m11x0W4xV4NXAMx/\nH5NNcC28grHjSXxvqbRA6dFoVhGOCFQbAZ+qsB1Q8QKBgQD//FZedi0cGGjdhDCN\nyxWtgMMREozMxcIaL6PJpq8WHXSalG6T0S+XFZQdehgxbvs2fPi9b7iLKm3+k/0z\neCLc5Ny5tFMl+Y2ga19Mhv3opoNF31CK9ihR9HX7dpyA4I0t8dIIDzLI/eKR96hv\nlWnomm6Ug0F8eztZHX2YaaSlRwKBgQD5X/Ip7PYcPaHmzyI+8ssCZ7Tn69CGQacF\naaU+ak4nqFi+LsZmy5CewgZ8bXcqtXwLDqqmCJaRc3pby25cfHWc4ckQHgt7QkM9\nIpNi09JhSSlNR9mwtZT/fDr7rWUD2Fr6/QePKtz6rPNtPenQqcc0TFlitmPuHcOS\nqExgkZ13DQKBgDvq6Jx7tNtaq1EOW/8UhiJyfTZFzUcxEtnmRMQyi9D1XBHCpI9c\n63LFzkGIDpmjjJGYdvCAcgXBDLYGFcIyYJaryy58kunUm93sxAW5oz0NnLSCLOwZ\n6h4kxmjxvng8F0+lxq+0PwLkyl+4RGi55GxZmYCRqIZmoeGeEYPXVn6JAoGAYlmz\n0VMycUrhan0wvXDWHfm2wG0hjYGhFKJo2GfmsP9VGJSsDOil/eb51eL6R67R4C6F\noPvsHitUC5X8zZ8MZ7YorSGcV513lUnopOZzp4jKMD9xHJ9Qxz5AqPfmyhBvOWPH\nsnAuPPMvAluTtobvGLIv4p2aZdP5SQL1NHTZjJUCgYEA7uvGd5vTdknBKCtMXvB6\nVEiMP9CwHNnMGcP/GufdKuFFbT43DbRImb5qSO55lyZoq2cxob1oOzBiM+ehEvWC\nRdFBHGc0wXGBGBswfLvs+n7xascKovSfXuB62d+Os5i1EEk2vNYfR78IRcUJX+jI\nh2lHLtIb7EcwOHHVLjGu2S8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "flight-deals@flight-deals-361722.iam.gserviceaccount.com",
+  "client_id": "101221166298000824016",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/flight-deals%40flight-deals-361722.iam.gserviceaccount.com"
+}

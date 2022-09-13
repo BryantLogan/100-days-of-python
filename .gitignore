@@ -3,8 +3,10 @@ __pycache__
 settings.json
 .vscode
 .venv/
+.env
 *.log
 .DS_STORE
 .jovianrc
 .ipynb_checkpoints
 venv/
+Day 39 - Flight Deal Finder\flight-deals-361722-ebd7f965d000.json
