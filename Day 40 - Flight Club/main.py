@@ -12,8 +12,13 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-CRED_FILE = "Day 39 - Flight Deal Finder\\flight-deals-361722-ebd7f965d000.json"
+CRED_FILE = "C:/Users/bryan/Desktop/AWS/Portfolio/Python/100 Days of Python/flight-deals-361722-ebd7f965d000.json"
+GOOGLE_SPREADSHEET_ID = os.environ.get("GOOGLE_SPREADSHEET_ID")
+
 gc = gspread.service_account(CRED_FILE)
+database = gc.open("Flight Deals")
+wks = database.worksheet("users")
+wks.get_all_records()
 
 print("Welcome to Bryant's Flight Club.\nWe find the best flight deals and email you.")
 first_name = input("What is your first name?\n").capitalize()
@@ -25,3 +30,7 @@ if user_email == verify_email:
     print("You're in the club!")
 else:
     user_email = input("Email does not match. Please re-enter email\n")
+
+wks.update_cell(2,1,first_name)
+wks.update_cell(2,2,last_name)
+wks.update_cell(2,3,user_email)

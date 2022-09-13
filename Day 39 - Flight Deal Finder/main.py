@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 cities = ["Paris", "Berlin", "Tokyo", "Sydney", "Istanbul", "Kuala Lumpur", "New York", "San Francisco", "Cape Town"]
-CRED_FILE = "Day 39 - Flight Deal Finder\\flight-deals-361722-ebd7f965d000.json"
+CRED_FILE = "C:\Users\\bryan\Desktop\AWS\Portfolio\Python\\100 Days of Python\\flight-deals-361722-ebd7f965d000.json"
 gc = gspread.service_account(CRED_FILE)
 
 tomorrow = (datetime.today() + timedelta(days=1)).strftime("%d/%m/%Y")
