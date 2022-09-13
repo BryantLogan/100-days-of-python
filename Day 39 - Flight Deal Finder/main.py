@@ -118,7 +118,7 @@ def check_prices():
         date_from = price["local_departure"].strftime("%d/%m/%Y")
         date_to = price["local_arrival"].strftime("%d/%m/%Y")
         print(date_from)
-        
+
         if price < wks.cell(new_row,column).value:
                 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
@@ -130,9 +130,10 @@ def check_prices():
                     )
         print(message.status)
 
-        new_row += 1        
+        new_row += 1
 
         
 
-get_iata_code()
-find_prices()
+# get_iata_code()
+# find_prices()
+check_prices()
